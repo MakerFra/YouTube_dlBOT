@@ -5,7 +5,7 @@ import time
 import os
 
 
-path= "/home/makerfra/Documents/yt_bot/tmp/" # consiglio un altra path
+path= "tmp/" #u can chouse unader folter per the 
 yt_opts = {
     'outtmpl':'',
     'format': 'bestaudio/best',
@@ -48,8 +48,8 @@ def handle(msg):
 
 
 
-token = "415861641:AAHquzoROiGH6A15LHd1BzFImYV0r8gye2Q"
-bot = telepot.Bot(token) #linuxvilBot
+token = "put here your token"
+bot = telepot.Bot(token) 
 bot.message_loop(handle)
 print('I am listening ...')
 
